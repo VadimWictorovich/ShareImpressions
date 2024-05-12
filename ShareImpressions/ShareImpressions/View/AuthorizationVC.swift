@@ -76,6 +76,7 @@ final class AuthorizationVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        view.backgroundColor = .blue
     }
     
     // MARK: - Methods
